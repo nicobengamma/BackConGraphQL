@@ -1,0 +1,149 @@
+[2022-11-10T19:36:23.335] [INFO] default - Usuario no existente
+[2022-11-10T19:36:23.363] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.setHeader (node:_http_outgoing:576:11)
+    at ServerResponse.header (C:\Users\eli\Documents\BackEnd\BackEnd Final\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.location (C:\Users\eli\Documents\BackEnd\BackEnd Final\node_modules\express\lib\response.js:915:15)
+    at ServerResponse.redirect (C:\Users\eli\Documents\BackEnd\BackEnd Final\node_modules\express\lib\response.js:953:18)
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\routes\user.router.js:62:13
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2022-11-10T19:36:32.004] [INFO] default - Usuario no existente
+[2022-11-10T19:36:32.009] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.setHeader (node:_http_outgoing:576:11)
+    at ServerResponse.header (C:\Users\eli\Documents\BackEnd\BackEnd Final\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.location (C:\Users\eli\Documents\BackEnd\BackEnd Final\node_modules\express\lib\response.js:915:15)
+    at ServerResponse.redirect (C:\Users\eli\Documents\BackEnd\BackEnd Final\node_modules\express\lib\response.js:953:18)
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\routes\user.router.js:62:13
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2022-11-11T12:06:31.297] [INFO] default - Usuario no existente
+[2022-11-11T12:06:31.315] [ERROR] default - ReferenceError: res is not defined
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:47:9
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-11-11T12:11:03.929] [INFO] default - Usuario no existente
+[2022-11-11T12:12:04.151] [INFO] default - Usuario no existente
+[2022-11-11T12:12:04.158] [ERROR] default - ReferenceError: kill is not defined
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:47:9
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-11-11T12:19:25.607] [INFO] default - Usuario no existente
+[2022-11-11T12:19:25.619] [ERROR] default - ReferenceError: res is not defined
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:47:9
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-11-11T12:19:56.410] [INFO] default - Usuario no existente
+[2022-11-11T12:19:56.414] [ERROR] default - ReferenceError: res is not defined
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:47:9
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-11-11T12:22:07.434] [INFO] default - Usuario no existente
+[2022-11-11T12:22:36.239] [INFO] default - Usuario no existente
+[2022-11-11T12:22:36.246] [ERROR] default - ReferenceError: stop is not defined
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:47:9
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-11-11T12:25:30.868] [INFO] default - Usuario no existente
+[2022-11-12T12:44:34.956] [INFO] default - Usuario no existente
+[2022-11-12T12:46:22.085] [INFO] default - Usuario no existente
+[2022-11-12T12:46:22.192] [ERROR] default - ReferenceError: res is not defined
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:47:9
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-11-12T12:48:22.232] [INFO] default - Usuario no existente
+[2022-11-12T12:48:22.239] [ERROR] default - ReferenceError: res is not defined
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:47:9
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-11-12T12:52:07.513] [INFO] default - Usuario no existente
+[2022-11-12T18:01:54.288] [INFO] default - Usuario no existente
+[2022-11-12T18:01:54.297] [ERROR] default - ReferenceError: res is not defined
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:70:9
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-11-12T18:04:08.456] [INFO] default - Usuario no existente
+[2022-11-12T18:04:08.481] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'sendStatus')
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:54:20
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-11-12T18:05:13.740] [INFO] default - Usuario no existente
+[2022-11-12T18:07:41.485] [INFO] default - Usuario no existente
+[2022-11-12T18:08:44.527] [INFO] default - Usuario no existente
+[2022-11-12T18:10:01.534] [ERROR] default - ReferenceError: req is not defined
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:51:9
+[2022-11-12T18:15:25.764] [INFO] default - Usuario no existente
+[2022-11-12T18:15:34.535] [ERROR] default - ReferenceError: req is not defined
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:52:9
+[2022-11-14T11:21:13.147] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'header')
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:70:13
+[2022-11-14T11:22:45.282] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'header')
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:70:13
+[2022-11-14T11:24:31.563] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'cookie')
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:70:13
+[2022-11-14T11:45:29.470] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'cookie')
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:70:13
+[2022-11-14T11:51:47.243] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'header')
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:70:13
+[2022-11-14T11:54:04.417] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'header')
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:56:11
+[2022-11-14T12:02:47.105] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'header')
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:56:11
+[2022-11-14T12:04:25.165] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'header')
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:56:11
+[2022-11-14T12:05:58.496] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'header')
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:56:11
+[2022-11-14T12:14:59.236] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'header')
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:56:11
+[2022-11-14T12:18:51.747] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'header')
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:56:11
+[2022-11-14T12:22:37.096] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'header')
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:56:11
+[2022-11-14T12:31:01.042] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'header')
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:56:11
+[2022-11-14T12:33:09.891] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'header')
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:56:11
+[2022-11-14T12:34:38.162] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'cookie')
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:56:11
+[2022-11-14T12:35:07.575] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'cookie')
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:56:11
+[2022-11-14T12:35:42.515] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'header')
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:56:11
+[2022-11-14T12:44:26.079] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'header')
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:56:18
+[2022-11-14T12:47:03.892] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'header')
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:56:18
+[2022-11-14T13:04:21.720] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'header')
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:56:18
+[2022-11-14T13:05:22.637] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'header')
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:56:18
+[2022-11-14T13:06:02.603] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'header')
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:56:18
+[2022-11-14T13:07:29.384] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'header')
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:55:18
+[2022-11-14T13:10:17.991] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'header')
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:55:18
+[2022-11-14T13:58:00.766] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.setHeader (node:_http_outgoing:576:11)
+    at ServerResponse.header (C:\Users\eli\Documents\BackEnd\BackEnd Final\node_modules\express\lib\response.js:794:10)
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:55:11 {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2022-11-14T13:58:17.415] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.setHeader (node:_http_outgoing:576:11)
+    at ServerResponse.header (C:\Users\eli\Documents\BackEnd\BackEnd Final\node_modules\express\lib\response.js:794:10)
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:55:11 {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2022-11-14T16:26:48.893] [ERROR] default - TypeError: res.headers is not a function
+    at C:\Users\kikec\Documents\backend\BackNodeJs\services\loginsService.js:53:11
+[2022-11-14T17:38:45.429] [ERROR] consola - Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.uo708jn.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19) {
+  errno: undefined,
+  code: 'ECONNREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.uo708jn.mongodb.net'
+}
+[2022-11-14T17:54:33.047] [ERROR] default - Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (C:\Users\eli\Documents\BackEnd\BackEnd Final\node_modules\jsonwebtoken\sign.js:107:20)
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:47:25
+[2022-11-14T17:59:26.354] [ERROR] default - ReferenceError: user is not defined
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:49:17
+[2022-11-14T18:01:38.365] [ERROR] default - ReferenceError: user is not defined
+    at C:\Users\eli\Documents\BackEnd\BackEnd Final\services\loginsService.js:49:17
