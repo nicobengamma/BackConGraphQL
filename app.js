@@ -6,6 +6,7 @@ const routerUser = require("./routes/user.router");
 const routerInfo = require("./routes/info.router");
 const routerRandoms = require("./routes/randoms.router");
 const config = require("./config/config");
+const { graphqlHTTP } = require("express-graphql");
 
 const app = express();
 

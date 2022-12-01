@@ -1,5 +1,5 @@
 {
-  "name": "1eraentregabackend",
+  "name": "BackConGraphQL",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nicobengamma/1eraEntregaBackEnd.git"
+    "url": "git+https://github.com/nicobengamma/BackConGraphQL"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nicobengamma/1eraEntregaBackEnd/issues"
+    "url": "https://github.com/nicobengamma/BackConGraphQL/issues"
   },
-  "homepage": "https://github.com/nicobengamma/1eraEntregaBackEnd#readme",
+  "homepage": "https://github.com/nicobengamma/BackConGraphQL#readme",
   "description": "",
   "dependencies": {
     "axios": "^1.1.3",
