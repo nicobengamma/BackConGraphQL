@@ -14,11 +14,19 @@ class Products {
 
 const db = {};
 
-function getProductos({ id }) {
+function getProducto({ id }) {
   if (!db[id]) {
     throw new Error("Productos no exists");
   }
   return db;
+}
+
+function getProductos({ field, value }) {
+  const productos = Object.values(db);
+  if (field && value) {
+    return productos.filter((s) => s[field] == value);
+  }
+  return productos;
 }
 
 function createProducto({ data }) {
@@ -29,4 +37,28 @@ function createProducto({ data }) {
   return newProducto;
 }
 
-function updateProducto() {}
+function updateProducto(id, { data }) {
+  if (!db[id]) {
+    throw new Error("Error");
+  }
+  const updateProducto = new Products(id, data);
+  db[id] = updateProducto;
+  return updateProducto;
+}
+
+function deleteProducto(id) {
+  if (!db[id]) {
+    throw new Error("Error");
+  }
+  const deleteProducto = db[id];
+  delete db[id];
+  return deleteProducto;
+}
+
+module.exports = {
+  getProducto,
+  getProductos,
+  createProducto,
+  updateProducto,
+  deleteProducto,
+};
